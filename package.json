@@ -1,5 +1,9 @@
 {
   "name": "@mfe-brasil/root",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "packageManager": "pnpm@9.7.0",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "test": "cross-env BABEL_ENV=test jest --passWithNoTests",
